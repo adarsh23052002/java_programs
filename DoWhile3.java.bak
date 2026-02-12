@@ -4,7 +4,7 @@ class DoWhile3
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Which number's Table do you want? : ");
+		System.out.print("Which number's Table you want? : ");
 		int num =sc.nextInt();
 		
 		int times = 1;

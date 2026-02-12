@@ -1,0 +1,40 @@
+import java.util.Scanner;
+class CountOfLeapYear 
+{
+	public static void main(String[] args) 
+	{
+		Scanner se = new Scanner(System.in);
+		System.out.print("Enter the start year :");
+		int start =se.nextInt();
+		
+		System.out.print("Enter the end year : ");
+		int end = se.nextInt();
+		
+		int count=0;
+		 
+		while (start<=end)
+		{
+			if (start%4==0 && start%100!=0 || start%400==0)
+			{
+			  count++;
+			}
+			start++;
+		}
+		
+		
+	// OR
+	
+	//	  for (int leapYear=start ; leapYear<=end ; leapYear++ )
+	//	{ 
+	//		if (leapYear%4==0 && leapYear%100!=0 || leapYear%400==0)
+	//		{
+	//			count++;
+	//		}
+	//	}
+	
+	
+	
+	
+		System.out.println(count);
+	}
+}
