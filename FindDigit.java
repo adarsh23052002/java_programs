@@ -12,7 +12,7 @@ class FindDigit
 		
 		while (data>0)
 		{
-			long last = data%10;
+			int last = data%10;
 			if (last==find)
 			{ 
 				System.out.println(find+" is present in the number ");
