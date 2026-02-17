@@ -5,14 +5,14 @@ class FindDigit
 	{
 		Scanner sc = new Scanner(System.in);
 		
-		double data = 78.9458426515789542;
+		long data = 899951697623l;
 		
 		System.out.println("Which digit you want to find? : ");
 		int find = sc.nextInt();
 		
 		while (data>0)
 		{
-			double last = data%10;
+			int last = data%10;
 			if (last==find)
 			{ 
 				System.out.println(find+" is present in the number ");
