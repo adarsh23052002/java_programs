@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class SumProduct                 // sum and product of a number but ignore the zeros. 
+class SumProduct               // sum and product of a number but ignore the zeros. 
 {
 	public static void main(String[] args) 
 	{   
