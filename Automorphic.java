@@ -8,7 +8,7 @@ class Automorphic
 		int num = sc.nextInt();
 		
 		int sq = num*num;
-	/*	int pow=1;
+		int pow=1;
 		for (int i=num ; i!=0 ; i/=10 )
 		{ 
 			pow *=10;
@@ -19,9 +19,11 @@ class Automorphic
 		}
 		else{
 			System.out.println("not a Automorphic");
-		} */
+		} 
 		
-		int count=0, pow=1;
+		
+		
+	/*	int count=0, pow=1;
 		for (int i =num ; i!=0 ; i/=10 )
 		{
 			count++;
@@ -29,7 +31,7 @@ class Automorphic
 		
 		while (count>0)
 		{
-			pow *= 10;
+			pow *= 10;                                            // larger one idea
 			count--;
 		}
 		if (sq%pow==num)
@@ -39,5 +41,9 @@ class Automorphic
 		else{
 			System.out.println("not a Automorphic");
 		}
+	*/
+	
+	
+	
 	}
 }
