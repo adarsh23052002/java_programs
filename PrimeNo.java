@@ -16,7 +16,7 @@ class PrimeNo
 			 }
 			 den++;
 		 }
-		 if (num/2 == den)
+		 if (den>num/2)
 		 {
 			 System.out.println("It's a prime number");
 		 }

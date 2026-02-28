@@ -4,7 +4,7 @@ class Reverse
 	public static void main(String[] args) 
 	{
 		Scanner sc =new Scanner(System.in);
-		System.out.print("Enter a number");
+		System.out.print("Enter a number :");
 		int num = sc.nextInt();
 		
 		int temp = num;
@@ -16,6 +16,7 @@ class Reverse
 			rev = rev*10+last;
 			temp /= 10;
 		}
+		
 		if (num==rev)
 		{
 			System.out.println("It's a palindrom");
