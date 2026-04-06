@@ -1,4 +1,3 @@
-import java.util.Scanner;
 class PalindromPrimeMethod 
 {
 	public static void main(String[] args) 
